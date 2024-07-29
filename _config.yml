@@ -1,7 +1,7 @@
-title: Tianyang Wang # name of the site
+title: Tianyang WANG # name of the site
 author: Wenbin Yan # name of site's author
 email: tianyang.wang@etu.sorbonne-universite.fr # email of site's author
-url: https://tianyangwang-su.github.io/ # root address of the site
+url: https://tianyang.wang-su.github.io/ # root address of the site
 baseurl: #"/no-style-please" # subpath of the site, e.g. "/blog" (leave it blank "" if you're site shouldn't use a subpath)
 description: > # description of the site (multiple lines allowed)
   Welcome to the personal website of Tianyang Wang, renowned globally for his groundbreaking work in Algebraic Geometry, 

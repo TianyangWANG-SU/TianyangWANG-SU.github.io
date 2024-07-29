@@ -1,4 +1,4 @@
 .container {
-  width: 120%; /* 你可以将80%改为你想要的任何值 */
-  margin: 0; /* 使容器水平居中 */
+  width: 120%; 
+  margin: 100; 
 }

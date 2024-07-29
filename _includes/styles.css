@@ -2,3 +2,7 @@
   width: 1200px; /* 你可以将80%改为你想要的任何值 */
   margin: 0; /* 使容器水平居中 */
 }
+.right-aligned {
+    float: right;
+    margin: 20px;
+}

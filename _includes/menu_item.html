@@ -1,28 +1,39 @@
-<div class="div-left">
-  <ul>
-    {%- for item in include.collection -%}
-      <li>
-        {%- if item.url -%}
-          {{ item.title }}
-        {%- else -%}
-          {{ item.title }}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tianyang Wang</title>
+  <link rel="stylesheet" href="styles.css"> <!-- 添加这个链接 -->
+</head>
+<body>
+  <div class="container">
+    <ul>
+      {%- for item in include.collection -%}
+        <li>
+          {%- if item.url -%}
+            {{ item.title }}
+          {%- else -%}
+            {{ item.title }}
+          {%- endif -%}
+        </li>
+
+        {%- if item.post_list -%}
+          {%
+            include post_list.html
+            category=item.post_list.category
+            limit=item.post_list.limit
+            show_more=item.post_list.show_more
+            show_more_text=item.post_list.show_more_text
+            show_more_url=item.post_list.show_more_url
+          -%}
         {%- endif -%}
-      </li>
 
-      {%- if item.post_list -%}
-        {%
-          include post_list.html
-          category=item.post_list.category
-          limit=item.post_list.limit
-          show_more=item.post_list.show_more
-          show_more_text=item.post_list.show_more_text
-          show_more_url=item.post_list.show_more_url
-        -%}
-      {%- endif -%}
-
-      {%- if item.entries -%}
-        {%- include menu_item.html collection=item.entries -%}
-      {%- endif -%}
-    {%- endfor -%}
-  </ul>
-</div>
+        {%- if item.entries -%}
+          {%- include menu_item.html collection=item.entries -%}
+        {%- endif -%}
+      {%- endfor -%}
+    </ul>
+  </div>
+</body>
+</html>

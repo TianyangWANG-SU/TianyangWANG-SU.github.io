@@ -1,63 +1,26 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Menu Example</title>
-  <style>
-    ul {
-      width: 1200px;
-      padding: 0;
-    }
-
-    ul li {
-      list-style: none;
-      margin-bottom: 10px;
-    }
-
-    ul li a {
-      text-decoration: none;
-      color: inherit;
-      font-size: 18px; /* Adjust font size as needed */
-    }
-  </style>
-</head>
-<body>
-  <ul>
-    <!-- Replace the below with your dynamic content -->
-    <li>Example 1</li>
-    <li></li>
-    <li></li>
-    <li>Static Item</li>
-    <!-- Dynamic content ends -->
-  </ul>
-
-  <!-- Dynamic content rendering -->
-  <ul style="width: 1200px;">
-    {%- for item in include.collection -%}
-      <li style="list-style: none; margin-bottom: 10px;">
-        {%- if item.url -%}
-          {{ item.title }}
-        {%- else -%}
-          {{ item.title }}
-        {%- endif -%}
-      </li>
-
-      {%- if item.post_list -%}
-        {%
-          include post_list.html
-          category=item.post_list.category
-          limit=item.post_list.limit
-          show_more=item.post_list.show_more
-          show_more_text=item.post_list.show_more_text
-          show_more_url=item.post_list.show_more_url
-        -%}
+<ul style="width: 1200px;">
+  {%- for item in include.collection -%}
+    <li>
+      {%- if item.url -%}
+        {{ item.title }}
+      {%- else -%}
+        {{ item.title }}
       {%- endif -%}
+    </li>
 
-      {%- if item.entries -%}
-        {%- include menu_item.html collection=item.entries -%}
-      {%- endif -%}
-    {%- endfor -%}
-  </ul>
-</body>
-</html>
+    {%- if item.post_list -%}
+      {%
+        include post_list.html
+        category=item.post_list.category
+        limit=item.post_list.limit
+        show_more=item.post_list.show_more
+        show_more_text=item.post_list.show_more_text
+        show_more_url=item.post_list.show_more_url
+      -%}
+    {%- endif -%}
+
+    {%- if item.entries -%}
+      {%- include menu_item.html collection=item.entries -%}
+    {%- endif -%}
+  {%- endfor -%}
+</ul>

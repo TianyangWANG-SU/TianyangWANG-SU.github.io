@@ -1,8 +1,9 @@
 <div class="container">
-    <img src="{{ site.data.menu.profile_image }}" alt="Profile Image" class="right-aligned">
     
+    <img src="{{ site.baseurl }}{{ site.data.menu.profile_image }}" alt="Profile Image" class="right-aligned">
+
     <ul>
-        {%- for item in include.collection -%}
+        {%- for item in site.data.menu.entries -%}
             <li>
                 {%- if item.url -%}
                     {{ item.title }}

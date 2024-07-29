@@ -1,12 +1,11 @@
 <div class="container">
-    <!-- 只在这里渲染图片 -->
     <img src="{{ site.baseurl }}{{ site.data.menu.profile_image }}" alt="Profile Image" class="right-aligned">
 
     <ul>
-        {%- for item in site.data.menu.entries -%}
+        {%- for item in include.collection -%}
             <li>
                 {%- if item.url -%}
-                    <a href="{{ item.url }}">{{ item.title }}</a>
+                    {{ item.title }}
                 {%- else -%}
                     {{ item.title }}
                 {%- endif -%}

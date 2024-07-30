@@ -8,4 +8,5 @@ category: daily_life
 ![](images/blog2-1.jpg){:.ioda}
 ![](images/blog2-2.jpg){:.ioda}
 
+
 J’aime beaucoup cette pièce de la cérémonie d’ouverture.

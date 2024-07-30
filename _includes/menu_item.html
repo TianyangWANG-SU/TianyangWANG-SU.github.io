@@ -2,28 +2,28 @@
     <img src="{{ site.baseurl }}{{ site.data.menu.profile_image }}" alt="Profile Image" class="right-aligned">
 
     <ul>
-        {%- for item in include.collection -%}
+        {%- for sub_item in include.collection -%}
             <li>
-                {%- if item.url -%}
-                    <a href="{{ item.url }}">{{ item.title }}</a>
+                {%- if sub_item.url -%}
+                    <a href="{{ sub_item.url }}">{{ sub_item.title }}</a>
                 {%- else -%}
-                    {{ item.title }}
+                    {{ sub_item.title }}
                 {%- endif -%}
             </li>
-
-            {%- if item.post_list -%}
+    
+            {%- if sub_item.post_list -%}
                 {%
                     include post_list.html
-                    category=item.post_list.category
-                    limit=item.post_list.limit
-                    show_more=item.post_list.show_more
-                    show_more_text=item.post_list.show_more_text
-                    show_more_url=item.post_list.show_more_url
+                    category=sub_item.post_list.category
+                    limit=sub_item.post_list.limit
+                    show_more=sub_item.post_list.show_more
+                    show_more_text=sub_item.post_list.show_more_text
+                    show_more_url=sub_item.post_list.show_more_url
                 -%}
             {%- endif -%}
-
-            {%- if item.entries -%}
-                {%- include menu_item.html collection=item.entries -%}
+    
+            {%- if sub_item.entries -%}
+                {%- include menu_item.html collection=sub_item.entries -%}
             {%- endif -%}
         {%- endfor -%}
     </ul>

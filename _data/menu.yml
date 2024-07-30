@@ -24,8 +24,7 @@ entries:
       show_more_text: See more posts...
       show_more_url: example2-archive.html
 
-  - title: rss
-    url: feed.xml
+  - title: <a href='feed.xml'> rss </a>
   
   - title: another list
     entries:

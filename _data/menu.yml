@@ -17,12 +17,19 @@ entries:
       show_more_text: See archive...
       show_more_url: archive.html
 
-  - title: posts by category
+  - title: My Daily Life as the Best Mathematician in the World
     post_list:
       category: daily_life
       show_more: true
       show_more_text: See more posts...
-      show_more_url: example2-archive.html
+      show_more_url: daily_life-archive.html
+
+  - title: All My Greatest Work in Algebraic Geometry
+    post_list:
+      category: mathematics_work
+      show_more: true
+      show_more_text: See more posts...
+      show_more_url: mathematics_work-archive.html
 
   - title: rss
     url: feed.xml

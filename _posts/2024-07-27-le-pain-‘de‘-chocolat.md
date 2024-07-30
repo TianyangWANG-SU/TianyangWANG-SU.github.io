@@ -5,7 +5,7 @@ category: daily_life
 
 C'est le pain 'de' chocolat. 
 ![](images/blog1.jpg){:.ioda}
-Voici une description en français de la préparation d'un croissant, tel que celui montré sur l'image :
+Voici une description en français de la préparation d'un pain 'de' chocolat, tel que celui montré sur l'image :
 
 ### Préparation du croissant :
 

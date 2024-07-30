@@ -2,8 +2,8 @@
 # https://github.com/riggraz/no-style-please#customize-the-menu
 
 entries:
-  - profile_image: images/Wang_tai_shuai_le.jpg
   - title: info
+    profile_image: images/Wang_tai_shuai_le.jpg
     entries:
       - title: "Welcome to the personal website of Tianyang Wang, renowned globally for his groundbreaking work in Algebraic Geometry, poised to dominate the Fields Medal stage for years to come.  — Wenbin Yan"
       - title: "email adress: tianyang.wang(at)etu.sorbonne-universite.fr (replace '(at)' with @)"

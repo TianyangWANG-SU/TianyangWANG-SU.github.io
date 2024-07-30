@@ -7,7 +7,7 @@ C'est le pain 'de' chocolat.
 ![](images/blog1.jpg){:.ioda}
 Voici une description en français de la préparation d'un pain 'de' chocolat:
 
-### Préparation du croissant :
+### Préparation du pain 'de' chocolat :
 
 1. **Ingrédients nécessaires** :
    - Farine : 500 grammes
@@ -37,17 +37,17 @@ Voici une description en français de la préparation d'un pain 'de' chocolat:
    - Réfrigérez la pâte pliée pendant au moins 30 minutes pour permettre au beurre de se raffermir.
    - Répétez ce processus de laminage et de pliage deux fois de plus, en réfrigérant la pâte entre chaque tour.
 
-5. **Façonnage des croissants** :
+5. **Façonnage de pains 'de' chocolat** :
    - Après le dernier tour et un temps de repos au frais, étalez la pâte en un grand rectangle d'environ 0,5 cm d'épaisseur.
    - Découpez des triangles dans la pâte.
-   - Roulez chaque triangle de la base vers la pointe pour former les croissants.
-   - Placez les croissants sur une plaque de cuisson recouverte de papier sulfurisé, en laissant suffisamment d'espace entre eux.
-   - Laissez lever les croissants pendant environ 1 heure ou jusqu'à ce qu'ils aient doublé de volume.
+   - Roulez chaque triangle de la base vers la pointe pour former les pains 'de' chocolat.
+   - Placez les pains 'de' chocolat sur une plaque de cuisson recouverte de papier sulfurisé, en laissant suffisamment d'espace entre eux.
+   - Laissez lever les pains 'de' chocolat pendant environ 1 heure ou jusqu'à ce qu'ils aient doublé de volume.
 
 6. **Cuisson** :
    - Préchauffez le four à 200°C.
-   - Badigeonnez les croissants d'un mélange d'œuf battu et de lait pour les faire dorer.
-   - Faites cuire les croissants pendant environ 15-20 minutes ou jusqu'à ce qu'ils soient bien dorés et feuilletés.
+   - Badigeonnez les pains 'de' chocolat d'un mélange d'œuf battu et de lait pour les faire dorer.
+   - Faites cuire les pains 'de' chocolat pendant environ 15-20 minutes ou jusqu'à ce qu'ils soient bien dorés et feuilletés.
    - Laissez-les refroidir légèrement avant de les déguster.
 
-Voilà comment est préparé un délicieux croissant comme celui sur la photo. Bon appétit !
+Voilà comment est préparé un délicieux pain 'de' chocolat comme celui sur la photo. Bon appétit !

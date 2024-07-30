@@ -1,6 +1,4 @@
 <div class="container">
-    <img src="{{ site.baseurl }}{{ site.data.menu.profile_image }}" alt="Profile Image" class="right-aligned">
-
     <ul>
         {%- for sub_item in include.collection -%}
             <li>
@@ -10,6 +8,10 @@
                     {{ sub_item.title }}
                 {%- endif -%}
             </li>
+
+            {%- if sub_item.profile_image -%}
+                <img src="{{ site.baseurl }}{{ site.data.menu.profile_image }}" alt="Profile Image" class="right-aligned">
+            {%- endif -%}
     
             {%- if sub_item.post_list -%}
                 {%

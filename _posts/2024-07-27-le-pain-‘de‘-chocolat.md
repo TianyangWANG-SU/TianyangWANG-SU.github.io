@@ -3,7 +3,7 @@ layout: post
 category: daily_life
 ---
 
-C'est le pain de chocolat. 
+C'est le pain 'de' chocolat. 
 ![](images/blog1.jpg){:.ioda}
 Voici une description en français de la préparation d'un croissant, tel que celui montré sur l'image :
 

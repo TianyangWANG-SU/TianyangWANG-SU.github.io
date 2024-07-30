@@ -24,7 +24,7 @@ entries:
       show_more_text: See more posts...
       show_more_url: daily_life-archive.html
 
-  - title: All My Greatest Work in Algebraic Geometry
+  - title: All My Greatest Works in Algebraic Geometry
     post_list:
       category: mathematics_work
       show_more: true

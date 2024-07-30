@@ -1,5 +1,10 @@
 <div class="container">
+    <!-- 调试图片路径 -->
+    <p>Image path: {{ site.baseurl }}{{ site.data.menu.profile_image }}</p>
+
+    <!-- 只在这里渲染图片 -->
     <img src="{{ site.baseurl }}{{ site.data.menu.profile_image }}" alt="Profile Image" class="right-aligned">
+
 
     <ul>
         {%- for item in include.collection -%}

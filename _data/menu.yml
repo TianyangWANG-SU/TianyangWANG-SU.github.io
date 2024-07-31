@@ -6,7 +6,7 @@ entries:
     profile_image: images/profile.jpeg
     entries:
       - title: "Bienvenue sur le site Web personnel de Tianyang WANG, reconnu dans le monde entier pour son travail révolutionnaire en géométrie algébrique, sur le point de dominer la scène Fields Medal pour les années à venir. - Wenbin YAN"
-      - title: "Adresse e-mail: tianyang.wang(at)etu.sorbonne-universite.fr (replace '(at)' with @)"
+      - title: "Adresse e-mail: tianyang.wang(arobase)etu.sorbonne-universite.fr (replace <<(arobase)>> avec <<@>>)"
   #    - title: github account
   #      url: https://github.com/TianyangWANG-SU
 

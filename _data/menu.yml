@@ -6,7 +6,7 @@ entries:
     profile_image: images/profile.jpeg
     entries:
       - title: "Bienvenue sur le site Web personnel de Tianyang WANG"
-      - title: "Adresse e-mail: tianyang.wang(arobase)etu.sorbonne-universite.fr (remplaçez <<(arobase)>> avec <<@>>)"
+      - title: "Adresse e-mail: tianyang.wang(arobase)etu.sorbonne-universite.fr (remplaçez <<(arobase)>> avec @)"
   #    - title: github account
   #      url: https://github.com/TianyangWANG-SU
 

@@ -2,38 +2,15 @@
 # https://github.com/riggraz/no-style-please#customize-the-menu
 
 entries:
-  - title: About Me
+  - title: Sur Moi
     profile_image: images/profile.jpeg
     entries:
-      - title: "Welcome to the personal website of Tianyang Wang, renowned globally for his groundbreaking work in Algebraic Geometry, poised to dominate the Fields Medal stage for years to come.  — Wenbin Yan"
+      - title: "Bienvenue sur le site Web personnel de Tianyang Wang, reconnu dans le monde entier pour son travail révolutionnaire en géométrie algébrique, sur le point de dominer la scène Fields Medal pour les années à venir. - Wenbin YAN"
       - title: "email adress: tianyang.wang(at)etu.sorbonne-universite.fr (replace '(at)' with @)"
       - title: github account
         url: https://github.com/TianyangWANG-SU
 
-  - title: All Posts
-    post_list:
-      limit: 5
-      show_more: true
-      show_more_text: See archive...
-      show_more_url: archive.html
 
-  - title: My Daily Life as the Best Mathematician in the World
-    post_list:
-      category: daily_life
-      show_more: true
-      show_more_text: See more posts...
-      show_more_url: daily_life-archive.html
-
-  - title: All My Greatest Works in Algebraic Geometry
-    post_list:
-      category: mathematics_work
-      show_more: true
-      show_more_text: See more posts...
-      show_more_url: mathematics_work-archive.html
-
-  - title: rss
-    url: feed.xml
-  
   # - title: another list
   #   entries:
   #     - title: with subitems

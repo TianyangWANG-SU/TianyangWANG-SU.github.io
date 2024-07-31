@@ -1,7 +1,7 @@
 title: Tianyang WANG # name of the site
 author: Wenbin Yan # name of site's author
 email: tianyang.wang@etu.sorbonne-universite.fr # email of site's author
-url: https://tianyang.wang-su.github.io/ # root address of the site
+url: https://tianyangwang-su.github.io/ # root address of the site
 baseurl: #"/no-style-please" # subpath of the site, e.g. "/blog" (leave it blank "" if you're site shouldn't use a subpath)
 description: > # description of the site (multiple lines allowed)
   Bienvenue sur le site Web personnel de Tianyang Wang, reconnu dans le monde entier pour son travail révolutionnaire en géométrie algébrique, sur le point de dominer la scène Fields Medal pour les années à venir. - Wenbin Yan
